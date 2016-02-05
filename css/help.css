@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	border: 1px	solid darkgoldenrod;
+}
+
+.container {
+	border: 1px	solid darkred;
+}
+
+.row {
+	border: 1px	solid darkblue;
+}
+
+.col-md-3 {
+	border: 1px	solid darkcyan;
+}
+
+.col-md-4 {
+	border: 1px	solid darkgreen;
+}
+
+.col-md-12 {
+	border: 1px	solid darkmagenta;
+}
+
