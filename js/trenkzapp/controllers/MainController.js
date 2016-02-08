@@ -18,7 +18,7 @@ app.controller('MainController', [
 					{
 						name: "Steps and Rhythm",
 						address: "B-38 Triveni Nagar",
-						price: 1000,
+						price: 2000,
 						contact_no: "9602833112",
 						image: ""
 					},
@@ -38,7 +38,7 @@ app.controller('MainController', [
 					{
 						name: "",
 						address: "B-38 Triveni Nagar",
-						price: 1000,
+						price: 2000,
 						contact_no: "9602833112",
 						image: ""
 					},
@@ -53,13 +53,12 @@ app.controller('MainController', [
 			}
 		]
 		$scope.cat = $scope.data[0];
-		$scope.doClick = function (id, event) {
+		$scope.categoryClick = function (id, event) {
 			for (var index = 0; index < $scope.data.length; index++) {
 				if (id == $scope.data[index].id) {
 					$scope.cat = $scope.data[index];
 				}
 			}
-		};
-
+		}
 	}
 ]);
