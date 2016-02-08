@@ -56,6 +56,7 @@
 								<span class="card-title activator grey-text text-darken-4">{{ class.name }}<i class="material-icons right">more_vert</i></span>
 								<p>{{ class.address }}</p>
 								<p>{{ class.contact_number }}</p>
+								<p>{{ class.price | currency: "&#8377": 0 }}</p>
 							</div>
 							<div class="card-reveal">
 								<span class="card-title grey-text text-darken-4">{{ class.name }}<i class="material-icons right">close</i></span>
