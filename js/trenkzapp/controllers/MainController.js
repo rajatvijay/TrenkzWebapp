@@ -28,15 +28,9 @@ app.controller('MainController', [
 						price: 1000,
 						contact_no: "9602833112",
 						image: ""
-					}
-				]
-			},
-			{
-				id: 2,
-				category: "singing",
-				classes: [
+					},
 					{
-						name: "",
+						name: "Steps and Rhythm",
 						address: "B-38 Triveni Nagar",
 						price: 2000,
 						contact_no: "9602833112",
@@ -45,7 +39,209 @@ app.controller('MainController', [
 					{
 						name: "Steps and Rhythm",
 						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Steps and Rhythm",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					}
+				]
+			},
+			{
+				id: 2,
+				category: "singing",
+				classes: [
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
 						price: 1000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
+						contact_no: "9602833112",
+						image: ""
+					},
+					{
+						name: "Oberoi",
+						address: "B-38 Triveni Nagar",
+						price: 2000,
 						contact_no: "9602833112",
 						image: ""
 					}
