@@ -2,11 +2,11 @@ app.controller('MainController', [
 	'$scope', function ($scope) {
 		$scope.categories = [
 			{
-				name: "dance",
+				name: "Dance",
 				id: 1
 			},
 			{
-				name: "singing",
+				name: "Singing",
 				id: 2
 			}
 		]

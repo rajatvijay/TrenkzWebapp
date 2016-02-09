@@ -13,8 +13,8 @@ li.collection-item.avatar {
     min-height: 65px !important;
 }
 
-ul.collection {
-    margin-top: 30px;
+.name {
+    padding: 6%;
 }
 
 p.center-align {
@@ -24,13 +24,38 @@ p.center-align {
     text-transform: uppercase;
 }
 
+.collection {
+    border: none;
+}
+
+.social-media img {
+    width: 30%;
+    margin: 1.46rem 0 1.168rem 0;
+}
+
 #left {
     border-right: 1px solid grey;
+}
+
+#right {
+    font-weight: bold !important;
 }
 
 .kms {
     border-bottom: 1px solid grey;
     margin-left: 1% !important;
+}
+
+.collection .collection-item.avatar .title {
+    font-size: 25px;
+}
+
+i.material-icons {
+    float: right;
+}
+
+span.card-title.activator.grey-text.text-darken-4.ng-binding, .card-title.grey-text.text-darken-4 {
+    font-weight: bold !important;
 }
 
 @media only screen and (min-width: 993px) {

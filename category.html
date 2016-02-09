@@ -9,6 +9,7 @@
 
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,15 +21,24 @@
 	<div class="container z-depth-1" ng-controller="MainController">
 		<div class="row">
 			<div id="top" class="col s12">
-				<h3 class="left-align">Trenkz</h3>
+				<div class="col s12 m6 l6">
+					<h3 class="left-align">Trenkz</h3>
+				</div>
+				<div class="col s12 m6 l2 offset-l4 social-media">
+					<img src="img/facebook.png" alt="facebook">
+					<img src="img/twitter.png" alt="twitter">
+					<img src="img/pinterest.png" alt="pinterest">
+				</div>
 			</div>
 			<div id="left" class="col s12 m4 l3">
 				<p class="center-align category-heading">Category</p>
 				<ul class="collection">
 					<li class="collection-item avatar" ng-repeat="category in categories" ng-click="categoryClick(category.id, event)">
-						<img ng-src="{{ category.image }}" ng-alt="{{ category.name }}" class="circle">
-						<span class="title">{{ category.name }}</span>
-						<img ng-src="{{ category.image }}" ng-alt="{{ category.name }}" class="circle">
+						<img ng-src="img/music.png" ng-alt="{{ category.name }}" class="circle">
+						<div class="name">
+							<span class="title">{{ category.name }}</span>
+							<i class="material-icons">chevron_right</i>
+						</div>
 					</li>
 				</ul>
 			</div>
