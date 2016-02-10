@@ -504,3 +504,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.btn {
+        border-radius: 10px !important;
+}
+
+.social-media img {
+    width: 3%;
+}
